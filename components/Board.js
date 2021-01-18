@@ -73,7 +73,7 @@ export default function Board({ currentColor, cells, setCells }) {
           Toogle cell border
         </button>
       </div>
-      <div className="flex justify-center items-center flex-wrap mt-4 border-2 border-black ">
+      <div className="flex justify-center items-center flex-wrap mt-4 border-2 border-black mb-10">
         {cells.map((cell, index) => (
           <div
             key={index}

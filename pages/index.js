@@ -70,7 +70,7 @@ export default function IndexPage() {
         ></div>
       </div>
 
-      <div className="flex justify-center items-center max-w-6xl flex-wrap">
+      <div className="flex justify-center items-center max-w-6xl flex-wrap ">
         <Board cells={cells} setCells={setCells} currentColor={currentColor} />
       </div>
     </Wrapper>
