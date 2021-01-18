@@ -66,7 +66,7 @@ export default function IndexPage() {
       <div className="w-full flex items-center justify-center space-x-4">
         <div className="font-bold capitalize">Current color:</div>
         <div
-          className={`border-2 border-black h-5 w-5 rounded-full ${currentColor}`}
+          className={`border-2 border-gray-500  h-5 w-5 rounded-full ${currentColor}`}
         ></div>
       </div>
 
